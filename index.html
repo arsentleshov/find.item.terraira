@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>название сайта</title>
+	<style type="text/css">
+		.box1{
+			background-image: url(1.webp);
+			background-size: cover;
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 152px;
+			left: 1365px;
+		}
+		.box2{
+			background-image: url(2.webp);
+			background-size: cover;
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 710px;
+			left: 230px;
+		}
+		.box3{
+			background-image: url(3.webp);
+			background-size: cover;
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 292px;
+			left: 1000px;
+		}
+		.box4{
+			background-image: url(4.webp);
+			background-size: cover;
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 760px;
+			left: 1330px;
+		}
+		.box5{
+			background-image: url(5.webp);
+			background-size: cover;
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 400px;
+			left: 400px;
+		}
+		.panel{
+			
+			height: 400px;
+			width: 400px;
+		}
+		.bg{
+			background-image: url(1.jpg);
+			background-size: cover;
+		}
+	</style>
+</head>
+<body class="bg">
+    <div class="panel">
+    	<h1>Найди всех дружелююных животных</h1>
+    	<h1>Очки</h1>
+    	<h1 class="score">0</h1>
+    	<p class="sniper">кролик</p>
+    	<p class="sniper2">белка</p>
+    	<p class="sniper3">золотой кролик</p>
+    	<p class="sniper4">взрывокролик💀</p>
+    	<p class="sniper5">призматическая златогласка</p>
+
+
+    </div>
+    <div class="box1">
+    	
+    </div>
+    <div class="box2">
+    	
+    </div>
+    <div class="box3">
+    	
+    </div>
+    <div class="box4">
+    	
+    </div>
+    <div class="box5">
+    	
+    </div>
+<script type="text/javascript">
+     let number = 0;
+
+	document.querySelector(".box1").onclick = function(){
+		number = number + 1;
+		document.querySelector(".score").innerHTML = number
+		document.querySelector(".box1").style.display = "none"
+		document.querySelector(".sniper").style.textDecoration = "line-through"
+	}
+	document.querySelector(".box2").onclick = function(){
+		number = number + 1;
+		document.querySelector(".score").innerHTML = number
+		document.querySelector(".box2").style.display = "none"
+		document.querySelector(".sniper2").style.textDecoration = "line-through"
+	}
+	document.querySelector(".box3").onclick = function(){
+		number = number + 1;
+		document.querySelector(".score").innerHTML = number
+		document.querySelector(".box3").style.display = "none"
+		document.querySelector(".sniper3").style.textDecoration = "line-through"
+	}
+	document.querySelector(".box4").onclick = function(){
+		number = number + 1;
+		document.querySelector(".score").innerHTML = number
+		document.querySelector(".box4").style.display = "none"
+		document.querySelector(".sniper4").style.textDecoration = "line-through"
+	}
+	document.querySelector(".box5").onclick = function(){
+		number = number + 1;
+		document.querySelector(".score").innerHTML = number
+		document.querySelector(".box5").style.display = "none"
+		document.querySelector(".sniper5").style.textDecoration = "line-through"
+	}
+</script>
+</body>
+</html>
